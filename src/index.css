@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+
+.wrapper h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.wrapper p{
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.wrapper .main{
+    /* display: flex; */
+    /* margin-top: 20px; */
+    /* align-items: center; */
+}
+
+.wrapper .form-container{
+    width: 400px;
+    height: 320px;
+    background-color: #9e9a9a;
+    margin: 10px auto;
+    padding: 10px;   
+}
+
+.wrapper .form-container .btn{
+    width: 100%;   
+}
+
+.wrapper .view-container{
+    width: 500px;    
+    background-color: #e4e4e4;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-btn button{
+    color: red;
+    cursor: pointer;
+    color: white;
+    padding: 0px;
+}
+
+.g{
+    margin-left: 3px;
+}
+
+tbody{
+    margin-top: 25px;
+}
